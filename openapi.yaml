@@ -1,0 +1,1122 @@
+components: 
+  schemas: 
+    "t3-FormData": 
+      type: object
+      properties: 
+        frm_average_growth_in_sales: 
+          description: "Average\x20Growth\x20in\x20Sales\x20\x28\x25\x29"
+          type: string
+        createdByName: 
+          type: string
+        t3_0_financial: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_byn_referenceNumber: 
+                type: string
+              frm_byn_enqTypeCode: 
+                type: string
+              frm_byn_reportDate: 
+                type: string
+              frm_byn_enquiryNumber: 
+                type: string
+              frm_byn_enqTypeDescriptionEn: 
+                type: string
+              frm_byn_creditFacility: 
+                type: string
+              id: 
+                type: string
+        frm_profit_margin: 
+          description: "Profit\x20Margin\x20\x28\x25\x29"
+          type: string
+        frm_length_of_operating_cycle_days: 
+          description: "Length\x20of\x20Operating\x20Cycle\x20\x28days\x29"
+          type: string
+        dateModified: 
+          format: date
+          type: string
+        frm_total_facility_utilized: 
+          description: "Total\x20facility\x20Utilized"
+          type: string
+        frm_net_worth_to_total_assets: 
+          description: "Net\x20Worth\x20to\x20Total\x20Assets"
+          type: string
+        dateCreated: 
+          format: date
+          type: string
+        modifiedByName: 
+          type: string
+        createdBy: 
+          type: string
+        frm_debt_service_coverage_ratio: 
+          description: "Debt\x20Service\x20Coverage\x20Ratio"
+          type: string
+        modifiedBy: 
+          type: string
+        id: 
+          type: string
+    "josn_master-FormDataWithFiles": 
+      type: object
+      properties: 
+        summery_status: 
+          description: "Summery\x20Status"
+          type: string
+        createdByName: 
+          type: string
+        years_of_existence: 
+          description: years_of_existence
+          type: string
+        report_status: 
+          description: "Report\x20Status"
+          type: string
+        frm_cr_number: 
+          description: "Cr\x20Number"
+          type: string
+        guarantee_amount_to_collateral: 
+          description: guarantee_amount_to_collateral
+          type: string
+        report_in_text: 
+          description: "Report\x20in\x20Text"
+          type: string
+        json_data: 
+          description: ""
+          type: array
+          items: 
+            type: object
+            properties: 
+              json_name: 
+                type: string
+              json: 
+                type: string
+              id: 
+                type: string
+        down_payment_to_loan_value: 
+          description: down_payment_to_loan_value
+          type: string
+        dateCreated: 
+          format: date
+          type: string
+        modifiedByName: 
+          type: string
+        guarantee_percentage: 
+          description: guarantee_percentage
+          type: string
+        legal_entity: 
+          description: legal_entity
+          type: string
+        modifiedBy: 
+          type: string
+        id: 
+          description: ID
+          type: string
+        sales_growth: 
+          description: sales_growth
+          type: string
+        recomandation: 
+          description: Recomandation
+          type: string
+        report_in_file: 
+          format: binary
+          description: "Report\x20in\x20File"
+          type: string
+        length_of_operating_cycle: 
+          description: length_of_operating_cycle
+          type: string
+        net_worth_to_total_assets: 
+          description: net_worth_to_total_assets
+          type: string
+        simah_score: 
+          description: simah_score
+          type: string
+        loan_terms_months: 
+          description: loan_terms_months
+          type: string
+        dateModified: 
+          format: date
+          type: string
+        customer_age: 
+          description: customer_age
+          type: string
+        debt_service_coverage_ratio: 
+          description: debt_service_coverage_ratio
+          type: string
+        isic: 
+          description: isic
+          type: string
+        business_facilities: 
+          description: business_facilities
+          type: string
+        number_of_loans: 
+          description: number_of_loans
+          type: string
+        createdBy: 
+          type: string
+        management_experience: 
+          description: management_experience
+          type: string
+        profit_margin: 
+          description: profit_margin
+          type: string
+        field5: 
+          description: "Appliation\x20No"
+          type: string
+        guarantee_sub_track: 
+          description: guarantee_sub_track
+          type: string
+    "josn_master-FormData": 
+      type: object
+      properties: 
+        summery_status: 
+          description: "Summery\x20Status"
+          type: string
+        createdByName: 
+          type: string
+        years_of_existence: 
+          description: years_of_existence
+          type: string
+        report_status: 
+          description: "Report\x20Status"
+          type: string
+        frm_cr_number: 
+          description: "Cr\x20Number"
+          type: string
+        guarantee_amount_to_collateral: 
+          description: guarantee_amount_to_collateral
+          type: string
+        report_in_text: 
+          description: "Report\x20in\x20Text"
+          type: string
+        json_data: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              json_name: 
+                type: string
+              json: 
+                type: string
+              id: 
+                type: string
+        down_payment_to_loan_value: 
+          description: down_payment_to_loan_value
+          type: string
+        dateCreated: 
+          format: date
+          type: string
+        modifiedByName: 
+          type: string
+        guarantee_percentage: 
+          description: guarantee_percentage
+          type: string
+        legal_entity: 
+          description: legal_entity
+          type: string
+        modifiedBy: 
+          type: string
+        id: 
+          description: ID
+          type: string
+        sales_growth: 
+          description: sales_growth
+          type: string
+        recomandation: 
+          description: Recomandation
+          type: string
+        report_in_file: 
+          description: "Report\x20in\x20File"
+          type: string
+        length_of_operating_cycle: 
+          description: length_of_operating_cycle
+          type: string
+        net_worth_to_total_assets: 
+          description: net_worth_to_total_assets
+          type: string
+        simah_score: 
+          description: simah_score
+          type: string
+        loan_terms_months: 
+          description: loan_terms_months
+          type: string
+        dateModified: 
+          format: date
+          type: string
+        customer_age: 
+          description: customer_age
+          type: string
+        debt_service_coverage_ratio: 
+          description: debt_service_coverage_ratio
+          type: string
+        isic: 
+          description: isic
+          type: string
+        business_facilities: 
+          description: business_facilities
+          type: string
+        number_of_loans: 
+          description: number_of_loans
+          type: string
+        createdBy: 
+          type: string
+        management_experience: 
+          description: management_experience
+          type: string
+        profit_margin: 
+          description: profit_margin
+          type: string
+        field5: 
+          description: "Appliation\x20No"
+          type: string
+        guarantee_sub_track: 
+          description: guarantee_sub_track
+          type: string
+    "t1-FormData": 
+      type: object
+      properties: 
+        createdByName: 
+          type: string
+        frm_comm_fullName: 
+          description: "Full\x20Name"
+          type: string
+        frm_recepDate: 
+          description: "Recep\x20Date"
+          type: string
+        frm_crContractId: 
+          description: "Contract\x20Id"
+          type: string
+        frm_crcapitalSpecified: 
+          description: "Capital\x20Specified"
+          type: string
+        frm_comm_districtAreaEnglish: 
+          description: "District\x20Area\x20English"
+          type: string
+        frm_comm_buildingNumber: 
+          description: "Building\x20Number"
+          type: string
+        frm_crexpiryHijriDate: 
+          description: "Expiry\x20Hijri\x20Date"
+          type: string
+        frm_crcityCode: 
+          description: "City\x20Code"
+          type: string
+        frm_comm_cityNameEnglish: 
+          description: "City\x20Name\x20English"
+          type: string
+        frm_comm_streetNameArabic: 
+          description: "Street\x20Name\x20Arabic"
+          type: string
+        id: 
+          type: string
+        frm_comm_districtAreaArabic: 
+          description: "District\x20Area\x20Arabic"
+          type: string
+        frm_crissueHijriDate: 
+          description: "Issue\x20Hijri\x20Date"
+          type: string
+        frm_fiscalStartDay: 
+          description: "Fiscal\x20StartDay"
+          type: string
+        frm_zipCode: 
+          description: "Zip\x20Code"
+          type: string
+        frm_iseCR: 
+          description: "ISE\x20CR"
+          type: string
+        frm_crnameAR: 
+          description: "Name\x20AR"
+          type: string
+        frm_comm_cityNameArabic: 
+          description: "City\x20Name\x20Arabic"
+          type: string
+        created_date_1: 
+          description: "Created\x20Date"
+          type: string
+        frm_mainCRNumber: 
+          description: "Main\x20CR\x20Number"
+          type: string
+        frm_crcityEN: 
+          description: "City\x20EN"
+          type: string
+        frm_cremail: 
+          description: Email
+          type: string
+        frm_crcityAR: 
+          description: "City\x20AR"
+          type: string
+        t1_2_owner: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_ownerEmail: 
+                type: string
+              frm_iqamaID: 
+                type: string
+              frm_nationalID: 
+                type: string
+              id: 
+                type: string
+              frm_ownerName: 
+                type: string
+              frm_crnumber: 
+                type: string
+        frm_fiscalStartMonth: 
+          description: "Fiscal\x20Start\x20Month"
+          type: string
+        frm_comm_zipCode: 
+          description: "Zip\x20Code"
+          type: string
+        t1_1_isic: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_isicactivity_isicname: 
+                type: string
+              frm_isicactivity_isiccode: 
+                type: string
+              id: 
+                type: string
+        frm_craddress: 
+          description: Address
+          type: string
+        frm_crlegalTypeEN: 
+          description: "Legal\x20Type\x20EN"
+          type: string
+        frm_crlegalTypeID: 
+          description: "Legal\x20Type\x20ID"
+          type: string
+        frm_crstatusId: 
+          description: "Status\x20Id"
+          type: string
+        frm_fiscalDateType: 
+          description: "Fiscal\x20Date\x20Type"
+          type: string
+        frm_comm_longitude: 
+          type: string
+        frm_crphoneNo: 
+          description: "Phone\x20No"
+          type: string
+        frm_crstatus: 
+          description: Status
+          type: string
+        frm_comm_additionalNumber: 
+          description: "Additional\x20Number"
+          type: string
+        frm_pobox2: 
+          description: "Po\x20Box2"
+          type: string
+        dateCreated: 
+          format: date
+          type: string
+        modifiedByName: 
+          type: string
+        frm_crtypeID: 
+          description: "Type\x20ID"
+          type: string
+        frm_pobox1: 
+          description: "Po\x20Box1"
+          type: string
+        frm_crstatusReasonAr: 
+          description: "Status\x20Reason\x20AR"
+          type: string
+        frm_crCompanyPeriod: 
+          description: "Company\x20Period"
+          type: string
+        modifiedBy: 
+          type: string
+        frm_crcontactNo: 
+          description: "Contact\x20No"
+          type: string
+        frm_crlegalTypeAR: 
+          description: "Legal\x20Type\x20AR"
+          type: string
+        frm_crstatusDate: 
+          description: "Status\x20Date"
+          type: string
+        frm_comm_unitNumber: 
+          description: "Unit\x20Number"
+          type: string
+        frm_crnationality: 
+          description: Nationality
+          type: string
+        frm_crcapital: 
+          description: Capital
+          type: string
+        frm_comm_latitude: 
+          type: string
+        frm_crnationalNumber: 
+          description: "National\x20Number"
+          type: string
+        frm_crinfo_serviceError: 
+          type: string
+        frm_companyPaidCapital: 
+          description: "Company\x20Paid\x20Capital"
+          type: string
+        dateModified: 
+          format: date
+          type: string
+        frm_crnumber: 
+          description: "CR\x20Number"
+          type: string
+        frm_crstatusReasonEN: 
+          description: "Status\x20Reason\x20EN"
+          type: string
+        frm_crfaxNo: 
+          description: "Fax\x20No"
+          type: string
+        frm_companyShareCount: 
+          description: "Company\x20Share\x20Count"
+          type: string
+        createdBy: 
+          type: string
+        frm_transDate: 
+          description: "Trans\x20Date"
+          type: string
+        frm_comm_streetNameEnglish: 
+          description: "Street\x20Name\x20English"
+          type: string
+        frm_website: 
+          description: Website
+          type: string
+        frm_crtype: 
+          description: Type
+          type: string
+    FormDataResponse: 
+      type: object
+      properties: 
+        id: 
+          type: string
+        errors: 
+          additionalProperties: 
+            type: string
+          type: object
+    ApiResponse: 
+      type: object
+      properties: 
+        date: 
+          format: date
+          type: string
+        code: 
+          format: int32
+          type: integer
+        message: 
+          type: string
+    "t3_0_financial-FormData": 
+      type: object
+      properties: 
+        createdByName: 
+          type: string
+        frm_byn_legalFormNameAR: 
+          description: "Legal\x20Form\x20Name\x20AR"
+          type: string
+        pk_id: 
+          type: string
+        frm_byn_expDate: 
+          description: "Exp\x20Date"
+          type: string
+        frm_byn_credit_fun_fundedPastDue: 
+          description: "Past\x20Due"
+          type: string
+        frm_byn_unsettledBcAmt: 
+          description: "Unsettled\x20BC\x20Amount"
+          type: string
+        frm_byn_enqTypeDescriptionEn: 
+          description: "Enquiry\x20Type\x20En"
+          type: string
+        frm_byn_capital: 
+          description: Capital
+          type: string
+        frm_byn_credit_fun_fundedUtilization: 
+          description: tilization
+          type: string
+        frm_byn_industryNameAR: 
+          description: "Industry\x20Name\x20AR"
+          type: string
+        frm_byn_pdB_150OVER: 
+          description: "PdB\x20150OVER"
+          type: string
+        frm_byn_enqTypeDescriptionAr: 
+          description: "Enquiry\x20Type\x20Ar"
+          type: string
+        frm_byn_credit_nonfun_utilization: 
+          description: Utilization
+          type: string
+        t3_3_funded: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_byn_credit_fun_pastDue: 
+                type: string
+              frm_byn_credit_fun_memberNameEN: 
+                type: string
+              id: 
+                type: string
+              frm_byn_credit_fun_memberCode: 
+                type: string
+              frm_byn_credit_fun_limit: 
+                type: string
+        frm_byn_unsettledDefaultsCount: 
+          description: "Unsettled\x20Defaults\x20Count"
+          type: string
+        frm_byn_legalFormNameEN: 
+          description: "Legal\x20Form\x20Name\x20EN"
+          type: string
+        id: 
+          type: string
+        frm_byn_credit_totalLimit: 
+          description: "Total\x20Limit"
+          type: string
+        frm_byn_idIssuerCode: 
+          description: "Id\x20Issuer\x20Code"
+          type: string
+        frm_byn_pdB_90OVER: 
+          description: "PdB\x2090OVER"
+          type: string
+        frm_byn_cityID: 
+          description: "City\x20ID"
+          type: string
+        frm_byn_cityNameAR: 
+          description: "City\x20Name\x20AR"
+          type: string
+        frm_byn_referenceNumber: 
+          description: "Reference\x20Number"
+          type: string
+        frm_byn_legalFormCode: 
+          description: "Legal\x20Form\x20Code"
+          type: string
+        frm_byn_cityNameEN: 
+          description: "City\x20Name\x20EN"
+          type: string
+        frm_byn_unsettledDefaultsAmt: 
+          description: "Unsettled\x20Defaults\x20Amount"
+          type: string
+        frm_byn_enqTypeCode: 
+          description: "Enquiry\x20Type\x20Code"
+          type: string
+        frm_byn_cityCode: 
+          description: "City\x20Code"
+          type: string
+        field13: 
+          description: "Id\x20Issuer\x20Name\x20EN"
+          type: string
+        frm_byn_enquiryNumber: 
+          description: "Enquiry\x20Number"
+          type: string
+        field14: 
+          description: "Id\x20Isuuer\x20Name\x20AR"
+          type: string
+        frm_byn_industryNameEN: 
+          description: "Industry\x20Name\x20EN"
+          type: string
+        frm_byn_credit_totalPastDue: 
+          description: "Total\x20Past\x20Due"
+          type: string
+        frm_byn_unsettledBcCount: 
+          description: "Unsettled\x20BC\x20Count"
+          type: string
+        frm_byn_date: 
+          description: Date
+          type: string
+        frm_byn_credit_totalUtilization: 
+          description: "Total\x20Utilization"
+          type: string
+        frm_byn_name: 
+          description: Name
+          type: string
+        frm_byn_reportDate: 
+          description: "Report\x20Date"
+          type: string
+        frm_byn_dateEstablished: 
+          description: "Date\x20Established"
+          type: string
+        frm_byn_creditFacility: 
+          description: "Credit\x20Facility"
+          type: string
+        frm_byn_credit_nonfun_pastDue: 
+          description: "Past\x20Due"
+          type: string
+        t3_7_ksh: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_byn_ksh_name: 
+                type: string
+              frm_byn_ksh_idNumber: 
+                type: string
+              frm_byn_ksh_percentOwned: 
+                type: string
+              frm_byn_ksh_idIssuerNameEN: 
+                type: string
+              id: 
+                type: string
+              frm_byn_ksh_relationship: 
+                type: string
+              frm_byn_ksh_nameAr: 
+                type: string
+        frm_byn_pdB_180OVER: 
+          description: "PdB\x20180OVER"
+          type: string
+        dateCreated: 
+          format: date
+          type: string
+        modifiedByName: 
+          type: string
+        frm_byn_pdB_120OVER: 
+          description: "PdB\x20120OVER"
+          type: string
+        frm_byn_nationalNo: 
+          description: "National\x20No"
+          type: string
+        frm_byn_pdB_60OVER: 
+          description: "PdB\x2060OVER"
+          type: string
+        modifiedBy: 
+          type: string
+        t3_5_ltcis: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_byn_ltwi_memberCode: 
+                type: string
+              frm_byn_ltwi_fundedLimit: 
+                type: string
+              frm_byn_ltwi_nonFundedCap: 
+                type: string
+              id: 
+                type: string
+              frm_byn_ltwi_memberNameEN: 
+                type: string
+        frm_byn_nameAr: 
+          description: "Name\x20Ar"
+          type: string
+        frm_byn_idCode: 
+          description: "Id\x20Code"
+          type: string
+        t3_4_locis: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_byn_loci_memberCode: 
+                type: string
+              frm_byn_loci_name: 
+                type: string
+              frm_byn_loci_memberNameEN: 
+                type: string
+              id: 
+                type: string
+              frm_byn_loci_collateral: 
+                type: string
+        frm_byn_discTextDescAr: 
+          description: "Disclaimer\x20Text\x20Ar"
+          type: string
+        frm_byn_credit_nonfun_toLimit: 
+          description: "To\x20Limit"
+          type: string
+        frm_byn_settledDefaultsCount: 
+          description: "Settled\x20Defaults\x20Count"
+          type: string
+        frm_byn_settledBcCount: 
+          description: "Settled\x20BC\x20Count"
+          type: string
+        frm_byn_tradeCreditSalesPayablesSummary: 
+          description: "Trade\x20Credit\x20Sales\x20Payables\x20Summary"
+          type: string
+        t3_6_dafaults: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_byn_default_product_code: 
+                type: string
+              frm_byn_default_product_textAr: 
+                type: string
+              frm_byn_default_originalAmount: 
+                type: string
+              id: 
+                type: string
+        frm_byn_pdB_30OVER: 
+          description: "PdB\x2030OVER"
+          type: string
+        frm_byn_discTextDescEn: 
+          description: "Disclaimer\x20Text\x20En"
+          type: string
+        t3_2_non_funded: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_byn_credit_nonfun_memberNameEN: 
+                type: string
+              frm_byn_credit_nonfun_memberCode: 
+                type: string
+              frm_byn_credit_nonfun_pastDue: 
+                type: string
+              id: 
+                type: string
+              frm_byn_credit_nonfun_limit: 
+                type: string
+        dateModified: 
+          format: date
+          type: string
+        frm_byn_credit_fun_fundedToLimit: 
+          description: "Funded\x20To\x20Limit"
+          type: string
+        t3_1_previous: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              frm_byn_memberCode: 
+                type: string
+              frm_byn_prevEnq_amount: 
+                type: string
+              frm_byn_memberNameEN: 
+                type: string
+              frm_byn_product_code: 
+                type: string
+              frm_byn_enquiryDate: 
+                type: string
+              frm_byn_enqTypeDescriptionEn: 
+                type: string
+              id: 
+                type: string
+        createdBy: 
+          type: string
+  securitySchemes: 
+    Authorization: 
+      in: header
+      name: Authorization
+      type: apiKey
+    api_id: 
+      in: header
+      name: api_id
+      type: apiKey
+    api_key: 
+      in: header
+      name: api_key
+      type: apiKey
+    token: 
+      in: header
+      name: token
+      type: apiKey
+servers: 
+  - url: "https\x3A//peocit.on.joget.cloud/jw/api"
+openapi: "3.0.1"
+paths: 
+  "/form/josn_master/\x7BrecordId\x7D": 
+    get: 
+      summary: "Get\x20form\x20data\x20by\x20record\x20ID"
+      security: 
+        - api_id: 
+          api_key: 
+        - api_id: 
+          api_key: 
+          token: 
+        - Authorization: 
+          api_id: 
+          api_key: 
+      description: "Retrieve\x20data\x20of\x20a\x20record\x20from\x20the\x20specified\x20form\x2C\x20via\x20record\x20ID"
+      operationId: getFormData
+      responses: 
+        200: 
+          description: "Successful\x20operation"
+          content: 
+            "application/json": 
+        405: 
+          description: "Invalid\x20input"
+          content: 
+            "application/json": 
+      parameters: 
+        - schema: 
+            type: string
+          in: path
+          name: recordId
+          description: "Form\x20record\x20ID."
+          required: true
+        - schema: 
+            type: boolean
+          in: query
+          name: includeSubformData
+          description: "Include\x20all\x20subform\x28s\x29\x20data\x20present\x20in\x20the\x20specified\x20form\x20into\x20the\x20response."
+          required: false
+        - schema: 
+            type: boolean
+          in: query
+          name: includeReferenceElements
+          description: "Include\x20all\x20referenced\x20elements\x20present\x20in\x20the\x20specified\x20form\x20into\x20the\x20response\x2C\x20e.g.\x2C\x20select\x20box\x20element\x20referencing\x20a\x20datalist\x20record."
+          required: false
+        - schema: 
+            type: boolean
+          in: query
+          name: flattenData
+          description: "Option\x20to\x20flatten\x20all\x20JSON\x20objects\x20to\x20a\x20single-level\x20key-value\x20map."
+          required: false
+      tags: 
+        - "form/josn_master"
+  "/form/t1/saveOrUpdate": 
+    post: 
+      summary: "Save\x20or\x20update\x20form\x20data"
+      security: 
+        - api_id: 
+          api_key: 
+        - api_id: 
+          api_key: 
+          token: 
+        - Authorization: 
+          api_id: 
+          api_key: 
+      requestBody: 
+        description: "The\x20parameters\x20required\x20here\x20is\x20highly\x20dependent\x20on\x20the\x20form\x20data\x20schema\x20of\x20the\x20specified\x20form.\x20A\x20uniquely\x20generated\x20form\x20record\x20ID\x20will\x20be\x20returned\x20as\x20the\x20success\x20response."
+        content: 
+          "application/json": 
+            schema: 
+              "\x24ref": "\x23/components/schemas/t1-FormData"
+      description: "Save\x20or\x20update\x20form\x20data"
+      operationId: saveOrUpdateFormData
+      responses: 
+        200: 
+          description: "Successful\x20operation"
+          content: 
+            "application/json": 
+              schema: 
+                "\x24ref": "\x23/components/schemas/FormDataResponse"
+        405: 
+          description: "Invalid\x20input"
+          content: 
+            "application/json": 
+      tags: 
+        - "form/t1"
+  "/form/josn_master": 
+    put: 
+      summary: "Update\x20form\x20data"
+      security: 
+        - api_id: 
+          api_key: 
+        - api_id: 
+          api_key: 
+          token: 
+        - Authorization: 
+          api_id: 
+          api_key: 
+      requestBody: 
+        description: "The\x20parameters\x20required\x20here\x20is\x20highly\x20dependent\x20on\x20the\x20form\x20data\x20schema\x20of\x20the\x20specified\x20form.\x20The\x20record\x20ID\x20specified\x20must\x20be\x20of\x20an\x20existing\x20record\x20of\x20the\x20form\x2C\x20to\x20update\x20its\x20records\x20successfully.\x20The\x20same\x20form\x20record\x20ID\x20as\x20specified\x20in\x20the\x20body\x20parameters\x20will\x20be\x20returned\x20as\x20the\x20success\x20response."
+        content: 
+          "application/json": 
+            schema: 
+              "\x24ref": "\x23/components/schemas/josn_master-FormData"
+      description: "Update\x20a\x20record\x20of\x20the\x20specified\x20form."
+      operationId: updateFormData
+      responses: 
+        200: 
+          description: "Successful\x20operation"
+          content: 
+            "application/json": 
+              schema: 
+                "\x24ref": "\x23/components/schemas/FormDataResponse"
+        404: 
+          description: "Data\x20not\x20found"
+          content: 
+            "application/json": 
+        405: 
+          description: "Invalid\x20input"
+          content: 
+            "application/json": 
+      tags: 
+        - "form/josn_master"
+  "/form/t1": 
+    post: 
+      summary: "Add\x20form\x20data"
+      security: 
+        - api_id: 
+          api_key: 
+        - api_id: 
+          api_key: 
+          token: 
+        - Authorization: 
+          api_id: 
+          api_key: 
+      requestBody: 
+        description: "The\x20parameters\x20required\x20here\x20is\x20highly\x20dependent\x20on\x20the\x20form\x20data\x20schema\x20of\x20the\x20specified\x20form.\x20A\x20uniquely\x20generated\x20form\x20record\x20ID\x20will\x20be\x20returned\x20as\x20the\x20success\x20response."
+        content: 
+          "application/json": 
+            schema: 
+              "\x24ref": "\x23/components/schemas/t1-FormData"
+      description: "Add\x20a\x20new\x20record\x20to\x20the\x20specified\x20form."
+      operationId: addFormData
+      responses: 
+        200: 
+          description: "Successful\x20operation"
+          content: 
+            "application/json": 
+              schema: 
+                "\x24ref": "\x23/components/schemas/FormDataResponse"
+        405: 
+          description: "Invalid\x20input"
+          content: 
+            "application/json": 
+      tags: 
+        - "form/t1"
+    put: 
+      summary: "Update\x20form\x20data"
+      security: 
+        - api_id: 
+          api_key: 
+        - api_id: 
+          api_key: 
+          token: 
+        - Authorization: 
+          api_id: 
+          api_key: 
+      requestBody: 
+        description: "The\x20parameters\x20required\x20here\x20is\x20highly\x20dependent\x20on\x20the\x20form\x20data\x20schema\x20of\x20the\x20specified\x20form.\x20The\x20record\x20ID\x20specified\x20must\x20be\x20of\x20an\x20existing\x20record\x20of\x20the\x20form\x2C\x20to\x20update\x20its\x20records\x20successfully.\x20The\x20same\x20form\x20record\x20ID\x20as\x20specified\x20in\x20the\x20body\x20parameters\x20will\x20be\x20returned\x20as\x20the\x20success\x20response."
+        content: 
+          "application/json": 
+            schema: 
+              "\x24ref": "\x23/components/schemas/t1-FormData"
+      description: "Update\x20a\x20record\x20of\x20the\x20specified\x20form."
+      operationId: updateFormData
+      responses: 
+        200: 
+          description: "Successful\x20operation"
+          content: 
+            "application/json": 
+              schema: 
+                "\x24ref": "\x23/components/schemas/FormDataResponse"
+        404: 
+          description: "Data\x20not\x20found"
+          content: 
+            "application/json": 
+        405: 
+          description: "Invalid\x20input"
+          content: 
+            "application/json": 
+      tags: 
+        - "form/t1"
+  "/form/josn_master/updateWithFiles": 
+    post: 
+      summary: "Update\x20form\x20data\x20with\x20file\x20upload"
+      security: 
+        - api_id: 
+          api_key: 
+        - api_id: 
+          api_key: 
+          token: 
+        - Authorization: 
+          api_id: 
+          api_key: 
+      requestBody: 
+        description: "The\x20parameters\x20required\x20here\x20is\x20highly\x20dependent\x20on\x20the\x20form\x20data\x20schema\x20of\x20the\x20specified\x20form.\x20The\x20record\x20ID\x20specified\x20must\x20be\x20of\x20an\x20existing\x20record\x20of\x20the\x20form\x2C\x20to\x20update\x20its\x20records\x20successfully.\x20The\x20same\x20form\x20record\x20ID\x20as\x20specified\x20in\x20the\x20body\x20parameters\x20will\x20be\x20returned\x20as\x20the\x20success\x20response."
+        content: 
+          "multipart/form-data": 
+            schema: 
+              "\x24ref": "\x23/components/schemas/josn_master-FormDataWithFiles"
+      description: "Update\x20a\x20record\x20of\x20the\x20specified\x20form."
+      operationId: updateFormDataWithFiles
+      responses: 
+        200: 
+          description: "Successful\x20operation"
+          content: 
+            "application/json": 
+              schema: 
+                "\x24ref": "\x23/components/schemas/FormDataResponse"
+        404: 
+          description: "Data\x20not\x20found"
+          content: 
+            "application/json": 
+        405: 
+          description: "Invalid\x20input"
+          content: 
+            "application/json": 
+      parameters: 
+        - schema: 
+            type: string
+          in: query
+          name: appendFile
+          description: "Append\x20File\x20When\x20Update\x20With\x20Files\x28true/false\x29."
+          required: false
+      tags: 
+        - "form/josn_master"
+  "/form/t3_0_financial/saveOrUpdate": 
+    post: 
+      summary: "Save\x20or\x20update\x20form\x20data"
+      security: 
+        - api_id: 
+          api_key: 
+        - api_id: 
+          api_key: 
+          token: 
+        - Authorization: 
+          api_id: 
+          api_key: 
+      requestBody: 
+        description: "The\x20parameters\x20required\x20here\x20is\x20highly\x20dependent\x20on\x20the\x20form\x20data\x20schema\x20of\x20the\x20specified\x20form.\x20A\x20uniquely\x20generated\x20form\x20record\x20ID\x20will\x20be\x20returned\x20as\x20the\x20success\x20response."
+        content: 
+          "application/json": 
+            schema: 
+              "\x24ref": "\x23/components/schemas/t3_0_financial-FormData"
+      description: "Save\x20or\x20update\x20form\x20data"
+      operationId: saveOrUpdateFormData
+      responses: 
+        200: 
+          description: "Successful\x20operation"
+          content: 
+            "application/json": 
+              schema: 
+                "\x24ref": "\x23/components/schemas/FormDataResponse"
+        405: 
+          description: "Invalid\x20input"
+          content: 
+            "application/json": 
+      tags: 
+        - "form/t3_0_financial"
+  "/form/t3/saveOrUpdate": 
+    post: 
+      summary: "Save\x20or\x20update\x20form\x20data"
+      security: 
+        - api_id: 
+          api_key: 
+        - api_id: 
+          api_key: 
+          token: 
+        - Authorization: 
+          api_id: 
+          api_key: 
+      requestBody: 
+        description: "The\x20parameters\x20required\x20here\x20is\x20highly\x20dependent\x20on\x20the\x20form\x20data\x20schema\x20of\x20the\x20specified\x20form.\x20A\x20uniquely\x20generated\x20form\x20record\x20ID\x20will\x20be\x20returned\x20as\x20the\x20success\x20response."
+        content: 
+          "application/json": 
+            schema: 
+              "\x24ref": "\x23/components/schemas/t3-FormData"
+      description: "Save\x20or\x20update\x20form\x20data"
+      operationId: saveOrUpdateFormData
+      responses: 
+        200: 
+          description: "Successful\x20operation"
+          content: 
+            "application/json": 
+              schema: 
+                "\x24ref": "\x23/components/schemas/FormDataResponse"
+        405: 
+          description: "Invalid\x20input"
+          content: 
+            "application/json": 
+      tags: 
+        - "form/t3"
+info: 
+  description: ""
+  title: "Form\x20t1\x20API"
+  version: "8.1.12"
+tags: 
+  - name: "form/t1"
+    description: ""
+  - name: "form/t3"
+    description: ""
+  - name: "form/t3_0_financial"
+    description: ""
+  - name: "form/josn_master"
+    description: "For\x20Karman\x20Api\x20Access"
